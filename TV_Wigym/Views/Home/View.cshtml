@@ -1,0 +1,47 @@
+﻿@using TV.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    var data = (DisplayData) Model;
+}
+
+<!DOCTYPE html>
+<style>
+    
+</style>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="~/css/prod.css" asp-append-version="true"/>
+    <title>TV View</title>
+</head>
+<body>
+<main class="main">
+    <div class="top">
+        <span class="top__logo-box">
+            <img class="top__logo-img" src="~/images/logo-full.svg" alt="logo">
+        </span>
+    </div>
+    <div class="middle">
+        @foreach (var sect in data.Sections)
+        {
+            <section class="section @sect.Position">
+
+                @{
+                    foreach (var image in sect.Images)
+                    {
+                        <img class="section__image" src="@image.Url" alt="@image.FileName"/>
+                    }
+                }
+            </section>
+        }
+    </div>
+    <div class="bottom">
+        <marquee class="bottom__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, natus aut accusamus consequatur
+            porro quaerat vero quod nam, rerum dolor laborum deserunt? Molestiae aut consequuntur voluptatum
+            corporis ab ea. Ut?
+        </marquee>
+    </div>
+</main>
+</body>
+</html>

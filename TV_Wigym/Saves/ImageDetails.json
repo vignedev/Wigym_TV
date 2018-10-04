@@ -1,0 +1,36 @@
+{
+  "Sections": [
+    {
+      "Position": 0,
+      "Images": [
+        {
+          "Id": 1,
+          "FileName": "IMG_20180212_101955.jpg",
+          "Url": "/images/1-IMG_20180212_101955.jpg"
+        }
+      ],
+      "Interval": 5000,
+      "ShouldSwitchImages": false
+    },
+    {
+      "Position": 1,
+      "Images": [],
+      "Interval": 5000,
+      "ShouldSwitchImages": false
+    },
+    {
+      "Position": 2,
+      "Images": [],
+      "Interval": 5000,
+      "ShouldSwitchImages": false
+    },
+    {
+      "Position": 3,
+      "Images": [],
+      "Interval": 5000,
+      "ShouldSwitchImages": false
+    }
+  ],
+  "FooterText": "gasdjhagdasda",
+  "ShowNameDay": true
+}
