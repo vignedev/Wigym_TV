@@ -6,11 +6,11 @@ namespace TV.Models
     {
         public Section()
         {
-            DisplayObjects = new List<IDisplayObject>();
+            DisplayObjects = new List<Image>();
         }
 
         public Position Position { get; set; }
-        public List<IDisplayObject> DisplayObjects { get; set; }
+        public List<Image> DisplayObjects { get; set; }
         public int Interval { get; set; }
         public bool ShouldSwitchImages => DisplayObjects.Count > 1;
     }
