@@ -18,25 +18,25 @@ namespace TV
             //        {
             //            Position = Position.TopLeft,
             //            Interval = 5000,
-            //            Images = new System.Collections.Generic.List<Image>()
+            //            DisplayObjects = new System.Collections.Generic.List<Image>()
             //        },
             //        new Section
             //        {
             //            Position = Position.TopRight,
             //            Interval = 5000,
-            //            Images = new System.Collections.Generic.List<Image>()
+            //            DisplayObjects = new System.Collections.Generic.List<Image>()
             //        },
             //        new Section
             //        {
             //            Position = Position.BottomLeft,
             //            Interval = 5000,
-            //            Images = new System.Collections.Generic.List<Image>()
+            //            DisplayObjects = new System.Collections.Generic.List<Image>()
             //        },
             //        new Section
             //        {
             //            Position = Position.BottomRight,
             //            Interval = 5000,
-            //            Images = new System.Collections.Generic.List<Image>()
+            //            DisplayObjects = new System.Collections.Generic.List<Image>()
             //        }
             //    },
             //    FooterText = "gasdjhagdasda",

@@ -24,7 +24,7 @@
 
                 <div class="section__images">
                     @{
-                        foreach (var image in sect.Images)
+                        foreach (var image in sect.DisplayObjects)
                         {
                             <div class="section__image-box">
                                 <img class="section__image" src="@image.Url" alt="@image.FileName"/>

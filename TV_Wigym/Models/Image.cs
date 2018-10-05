@@ -1,6 +1,6 @@
 ﻿namespace TV.Models
 {
-    public class Image
+    public class Image : IDisplayObject
     {
         public int Id { get; set; }
         public string FileName { get; set; }

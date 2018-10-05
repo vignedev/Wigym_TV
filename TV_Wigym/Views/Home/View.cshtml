@@ -27,7 +27,7 @@
             <section class="section @sect.Position">
 
                 @{
-                    foreach (var image in sect.Images)
+                    foreach (var image in sect.DisplayObjects)
                     {
                         <img class="section__image" src="@image.Url" alt="@image.FileName"/>
                     }

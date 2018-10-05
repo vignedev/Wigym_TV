@@ -48,7 +48,7 @@ namespace TV.Helpers
         {
             var data = GetDataFromJson();
             var section = data.Sections.First(x => x.Position == position);
-            section.Images.Add(image);
+            section.DisplayObjects.Add(image);
             var json = JsonConvert.SerializeObject(data);
             File.WriteAllText(_config.JsonPath, json);
         }
@@ -63,7 +63,7 @@ namespace TV.Helpers
         public void DeleteImage(int id)
         {
             var data = GetDataFromJson();
-            var images = data.Sections.SelectMany(x => x.Images);
+            var images = data.Sections.SelectMany(x => x.DisplayObjects);
             var img = images.Single(x => x.Id == id);
             images.ToList().Remove(img);
             SaveData(data);

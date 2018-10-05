@@ -24,7 +24,7 @@ namespace TV.Controllers
 
         public IActionResult Index()
         {
-            return View("View", _data);
+            return View("Index", _data);
         }
         [Route("admin")]
         public IActionResult Admin()
