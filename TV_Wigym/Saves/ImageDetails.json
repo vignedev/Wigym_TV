@@ -2,7 +2,7 @@
   "Sections": [
     {
       "Position": 0,
-      "Images": [
+      "DisplayObejcts": [
         {
           "Id": 1,
           "FileName": "IMG_20180212_101955.jpg",
@@ -14,19 +14,19 @@
     },
     {
       "Position": 1,
-      "Images": [],
+      "DisplayObejcts": [],
       "Interval": 5000,
       "ShouldSwitchImages": false
     },
     {
       "Position": 2,
-      "Images": [],
+      "DisplayObejcts": [],
       "Interval": 5000,
       "ShouldSwitchImages": false
     },
     {
       "Position": 3,
-      "Images": [],
+      "DisplayObejcts": [],
       "Interval": 5000,
       "ShouldSwitchImages": false
     }
