@@ -66,9 +66,9 @@ body{ font-family: 'Open Sans', sans-serif; }
 
 .main .top { position: relative; }
 
-.main .top__logo-box { /* maybe obsolete? */
+/*.main .top__logo-box {
     padding: 5px;
-}
+}*/
 
 .main .top__logo-img { 
     height: 50px;
